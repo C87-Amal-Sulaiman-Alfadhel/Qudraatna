@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25445ABF253F0D1100E2C660 /* Math KU Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445AB3253F0D0F00E2C660 /* Math KU Notes.pdf */; };
+		25445AC0253F0D1100E2C660 /* M2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445AB4253F0D0F00E2C660 /* M2.pdf */; };
+		25445AC1253F0D1100E2C660 /* Math Student Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445AB5253F0D1000E2C660 /* Math Student Notes.pdf */; };
+		25445AC2253F0D1100E2C660 /* Chemistry Student Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445AB6253F0D1000E2C660 /* Chemistry Student Notes.pdf */; };
+		25445AC3253F0D1100E2C660 /* C1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445AB7253F0D1000E2C660 /* C1.pdf */; };
+		25445AC4253F0D1100E2C660 /* C3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445AB8253F0D1000E2C660 /* C3.pdf */; };
+		25445AC5253F0D1100E2C660 /* M1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445AB9253F0D1000E2C660 /* M1.pdf */; };
+		25445AC6253F0D1100E2C660 /* C4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445ABA253F0D1000E2C660 /* C4.pdf */; };
+		25445AC7253F0D1100E2C660 /* M3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445ABB253F0D1000E2C660 /* M3.pdf */; };
+		25445AC8253F0D1100E2C660 /* C2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445ABC253F0D1000E2C660 /* C2.pdf */; };
+		25445AC9253F0D1100E2C660 /* Chemistry KU Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445ABD253F0D1100E2C660 /* Chemistry KU Notes.pdf */; };
+		25445ACA253F0D1100E2C660 /* M4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25445ABE253F0D1100E2C660 /* M4.pdf */; };
+		25445ACE253F0D9700E2C660 /* SubjectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445ACD253F0D9700E2C660 /* SubjectVC.swift */; };
+		25445AD1253F0DBB00E2C660 /* PDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AD0253F0DBB00E2C660 /* PDFVC.swift */; };
+		25445AD4253F0DE000E2C660 /* TestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AD3253F0DE000E2C660 /* TestsVC.swift */; };
+		25445AD7253F0DFF00E2C660 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AD6253F0DFF00E2C660 /* QuizVC.swift */; };
+		25445ADA253F0E2C00E2C660 /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AD9253F0E2C00E2C660 /* ResultsVC.swift */; };
+		25445ADD253F945600E2C660 /* PDFBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445ADC253F945600E2C660 /* PDFBVC.swift */; };
+		25445AE0253F949D00E2C660 /* Subject2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445ADF253F949D00E2C660 /* Subject2VC.swift */; };
+		25445AE3253F94B000E2C660 /* PDF2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AE2253F94B000E2C660 /* PDF2VC.swift */; };
+		25445AE6253F94C000E2C660 /* Tests2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AE5253F94C000E2C660 /* Tests2VC.swift */; };
+		25445AE9253F94DA00E2C660 /* Quiz2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AE8253F94DA00E2C660 /* Quiz2VC.swift */; };
+		25445AEC253F94ED00E2C660 /* Results2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AEB253F94ED00E2C660 /* Results2VC.swift */; };
+		25445AEF253F950B00E2C660 /* PDFB2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25445AEE253F950B00E2C660 /* PDFB2VC.swift */; };
 		25C2AEBD2538EB7A00D2B0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2AEBC2538EB7A00D2B0DD /* AppDelegate.swift */; };
 		25C2AEBF2538EB7A00D2B0DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2AEBE2538EB7A00D2B0DD /* SceneDelegate.swift */; };
 		25C2AEC12538EB7A00D2B0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2AEC02538EB7A00D2B0DD /* ViewController.swift */; };
@@ -17,6 +41,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25445AB3253F0D0F00E2C660 /* Math KU Notes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Math KU Notes.pdf"; sourceTree = "<group>"; };
+		25445AB4253F0D0F00E2C660 /* M2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = M2.pdf; sourceTree = "<group>"; };
+		25445AB5253F0D1000E2C660 /* Math Student Notes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Math Student Notes.pdf"; sourceTree = "<group>"; };
+		25445AB6253F0D1000E2C660 /* Chemistry Student Notes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chemistry Student Notes.pdf"; sourceTree = "<group>"; };
+		25445AB7253F0D1000E2C660 /* C1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = C1.pdf; sourceTree = "<group>"; };
+		25445AB8253F0D1000E2C660 /* C3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = C3.pdf; sourceTree = "<group>"; };
+		25445AB9253F0D1000E2C660 /* M1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = M1.pdf; sourceTree = "<group>"; };
+		25445ABA253F0D1000E2C660 /* C4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = C4.pdf; sourceTree = "<group>"; };
+		25445ABB253F0D1000E2C660 /* M3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = M3.pdf; sourceTree = "<group>"; };
+		25445ABC253F0D1000E2C660 /* C2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = C2.pdf; sourceTree = "<group>"; };
+		25445ABD253F0D1100E2C660 /* Chemistry KU Notes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chemistry KU Notes.pdf"; sourceTree = "<group>"; };
+		25445ABE253F0D1100E2C660 /* M4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = M4.pdf; sourceTree = "<group>"; };
+		25445ACD253F0D9700E2C660 /* SubjectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectVC.swift; sourceTree = "<group>"; };
+		25445AD0253F0DBB00E2C660 /* PDFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFVC.swift; sourceTree = "<group>"; };
+		25445AD3253F0DE000E2C660 /* TestsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsVC.swift; sourceTree = "<group>"; };
+		25445AD6253F0DFF00E2C660 /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		25445AD9253F0E2C00E2C660 /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+		25445ADC253F945600E2C660 /* PDFBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFBVC.swift; sourceTree = "<group>"; };
+		25445ADF253F949D00E2C660 /* Subject2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject2VC.swift; sourceTree = "<group>"; };
+		25445AE2253F94B000E2C660 /* PDF2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDF2VC.swift; sourceTree = "<group>"; };
+		25445AE5253F94C000E2C660 /* Tests2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests2VC.swift; sourceTree = "<group>"; };
+		25445AE8253F94DA00E2C660 /* Quiz2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2VC.swift; sourceTree = "<group>"; };
+		25445AEB253F94ED00E2C660 /* Results2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results2VC.swift; sourceTree = "<group>"; };
+		25445AEE253F950B00E2C660 /* PDFB2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFB2VC.swift; sourceTree = "<group>"; };
 		25C2AEB92538EB7A00D2B0DD /* Qudraatna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qudraatna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C2AEBC2538EB7A00D2B0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25C2AEBE2538EB7A00D2B0DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,10 +87,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25445AB2253F059E00E2C660 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				25445AB7253F0D1000E2C660 /* C1.pdf */,
+				25445ABC253F0D1000E2C660 /* C2.pdf */,
+				25445AB8253F0D1000E2C660 /* C3.pdf */,
+				25445ABA253F0D1000E2C660 /* C4.pdf */,
+				25445ABD253F0D1100E2C660 /* Chemistry KU Notes.pdf */,
+				25445AB6253F0D1000E2C660 /* Chemistry Student Notes.pdf */,
+				25445AB9253F0D1000E2C660 /* M1.pdf */,
+				25445AB4253F0D0F00E2C660 /* M2.pdf */,
+				25445ABB253F0D1000E2C660 /* M3.pdf */,
+				25445ABE253F0D1100E2C660 /* M4.pdf */,
+				25445AB3253F0D0F00E2C660 /* Math KU Notes.pdf */,
+				25445AB5253F0D1000E2C660 /* Math Student Notes.pdf */,
+			);
+			path = PDFs;
+			sourceTree = "<group>";
+		};
+		25445ACC253F0D4C00E2C660 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25C2AEC02538EB7A00D2B0DD /* ViewController.swift */,
+				25445ACD253F0D9700E2C660 /* SubjectVC.swift */,
+				25445AD0253F0DBB00E2C660 /* PDFVC.swift */,
+				25445AD3253F0DE000E2C660 /* TestsVC.swift */,
+				25445AD6253F0DFF00E2C660 /* QuizVC.swift */,
+				25445AD9253F0E2C00E2C660 /* ResultsVC.swift */,
+				25445ADC253F945600E2C660 /* PDFBVC.swift */,
+				25445ADF253F949D00E2C660 /* Subject2VC.swift */,
+				25445AE2253F94B000E2C660 /* PDF2VC.swift */,
+				25445AE5253F94C000E2C660 /* Tests2VC.swift */,
+				25445AE8253F94DA00E2C660 /* Quiz2VC.swift */,
+				25445AEB253F94ED00E2C660 /* Results2VC.swift */,
+				25445AEE253F950B00E2C660 /* PDFB2VC.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
 		25C2AEB02538EB7A00D2B0DD = {
 			isa = PBXGroup;
 			children = (
 				25C2AEBB2538EB7A00D2B0DD /* Qudraatna */,
+				25445AB2253F059E00E2C660 /* PDFs */,
 				25C2AEBA2538EB7A00D2B0DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,12 +148,12 @@
 			children = (
 				25C2AEBC2538EB7A00D2B0DD /* AppDelegate.swift */,
 				25C2AEBE2538EB7A00D2B0DD /* SceneDelegate.swift */,
-				25C2AEC02538EB7A00D2B0DD /* ViewController.swift */,
 				25C2AEC22538EB7A00D2B0DD /* Main.storyboard */,
 				25C2AEC52538EB7B00D2B0DD /* Assets.xcassets */,
 				25C2AEC72538EB7B00D2B0DD /* LaunchScreen.storyboard */,
 				25C2AECA2538EB7B00D2B0DD /* Info.plist */,
 				25C2AED22538FE7500D2B0DD /* File.swift */,
+				25445ACC253F0D4C00E2C660 /* view controllers */,
 			);
 			path = Qudraatna;
 			sourceTree = "<group>";
@@ -127,9 +215,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25445AC8253F0D1100E2C660 /* C2.pdf in Resources */,
+				25445AC5253F0D1100E2C660 /* M1.pdf in Resources */,
+				25445AC0253F0D1100E2C660 /* M2.pdf in Resources */,
+				25445ABF253F0D1100E2C660 /* Math KU Notes.pdf in Resources */,
+				25445AC6253F0D1100E2C660 /* C4.pdf in Resources */,
+				25445ACA253F0D1100E2C660 /* M4.pdf in Resources */,
+				25445AC3253F0D1100E2C660 /* C1.pdf in Resources */,
+				25445AC2253F0D1100E2C660 /* Chemistry Student Notes.pdf in Resources */,
+				25445AC7253F0D1100E2C660 /* M3.pdf in Resources */,
+				25445AC1253F0D1100E2C660 /* Math Student Notes.pdf in Resources */,
 				25C2AEC92538EB7B00D2B0DD /* LaunchScreen.storyboard in Resources */,
 				25C2AEC62538EB7B00D2B0DD /* Assets.xcassets in Resources */,
+				25445AC9253F0D1100E2C660 /* Chemistry KU Notes.pdf in Resources */,
 				25C2AEC42538EB7A00D2B0DD /* Main.storyboard in Resources */,
+				25445AC4253F0D1100E2C660 /* C3.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25445AE9253F94DA00E2C660 /* Quiz2VC.swift in Sources */,
+				25445ADD253F945600E2C660 /* PDFBVC.swift in Sources */,
 				25C2AEC12538EB7A00D2B0DD /* ViewController.swift in Sources */,
+				25445AE0253F949D00E2C660 /* Subject2VC.swift in Sources */,
+				25445ADA253F0E2C00E2C660 /* ResultsVC.swift in Sources */,
+				25445AD7253F0DFF00E2C660 /* QuizVC.swift in Sources */,
 				25C2AED32538FE7500D2B0DD /* File.swift in Sources */,
 				25C2AEBD2538EB7A00D2B0DD /* AppDelegate.swift in Sources */,
+				25445AD1253F0DBB00E2C660 /* PDFVC.swift in Sources */,
+				25445AE3253F94B000E2C660 /* PDF2VC.swift in Sources */,
+				25445AE6253F94C000E2C660 /* Tests2VC.swift in Sources */,
+				25445ACE253F0D9700E2C660 /* SubjectVC.swift in Sources */,
 				25C2AEBF2538EB7A00D2B0DD /* SceneDelegate.swift in Sources */,
+				25445AD4253F0DE000E2C660 /* TestsVC.swift in Sources */,
+				25445AEC253F94ED00E2C660 /* Results2VC.swift in Sources */,
+				25445AEF253F950B00E2C660 /* PDFB2VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

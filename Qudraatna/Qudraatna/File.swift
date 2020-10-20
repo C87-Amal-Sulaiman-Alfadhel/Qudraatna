@@ -11,7 +11,10 @@ struct Subject {
     var subjectName : String
     var subjectStudentNotes : String
     var subjectKuwaitUniNotes : String
-    var subjectTest : String
+    var subjectTest1 : String
+    var subjectTest2 : String
+    var subjectTest3 : String
+    var subjectTest4 : String
     var subjectVirtualQuiz : String
 }
 
@@ -48,9 +51,9 @@ struct Quiz {
 }
 
 var mathArray = [
-    Subject(subjectName: "Math", subjectStudentNotes: "Math Student Notes", subjectKuwaitUniNotes: "Math KU Notes", subjectTest: "Math Tests", subjectVirtualQuiz: "Math Virtual Quiz")
+    Subject(subjectName: "Math", subjectStudentNotes: "Math Student Notes", subjectKuwaitUniNotes: "Math KU Notes", subjectTest1: "M1", subjectTest2: "M2", subjectTest3: "M3", subjectTest4: "M4", subjectVirtualQuiz: "Math Virtual Quiz")
 ]
 
 var ChemistryArray = [
-    Subject(subjectName: "Chemistry", subjectStudentNotes: "Chemistry Student Notes", subjectKuwaitUniNotes: "Chemistry KU Notes", subjectTest: "Chemistry Tests", subjectVirtualQuiz: "Chemistry Virtual Quiz")
+    Subject(subjectName: "Chemistry", subjectStudentNotes: "Chemistry Student Notes", subjectKuwaitUniNotes: "Chemistry KU Notes", subjectTest1: "C1", subjectTest2: "C2", subjectTest3: "C3", subjectTest4: "C4", subjectVirtualQuiz: "Chemistry Virtual Quiz")
 ]
