@@ -401,23 +401,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="PTl-VF-OBO">
-                                <rect key="frame" x="9" y="196" width="397" height="228"/>
+                                <rect key="frame" x="9" y="130" width="397" height="228"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You scored:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvS-WJ-oxZ">
-                                <rect key="frame" x="102" y="473" width="210" height="66"/>
+                                <rect key="frame" x="102" y="390" width="210" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="30"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIM-dE-f4i">
-                                <rect key="frame" x="0.0" y="585" width="406" height="136"/>
+                                <rect key="frame" x="0.0" y="500" width="406" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="110"/>
                                 <color key="textColor" red="0.47371597170000002" green="0.46902241659999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYH-Sx-hMD">
+                                <rect key="frame" x="159" y="730" width="96" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2020-10-19 at 12.10.52 AM"/>
+                                <connections>
+                                    <action selector="backButtonm:" destination="Udu-mZ-mJ2" eventType="touchUpInside" id="AcK-TY-Iw1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WIt-l1-CVK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -525,23 +533,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="RjH-Mx-qqL">
-                                <rect key="frame" x="9" y="196" width="397" height="228"/>
+                                <rect key="frame" x="9" y="130" width="397" height="228"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You scored:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucj-yq-VVJ">
-                                <rect key="frame" x="102" y="473" width="210" height="66"/>
+                                <rect key="frame" x="102" y="390" width="210" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="30"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aav-Cc-Wpw">
-                                <rect key="frame" x="50" y="585" width="315" height="136"/>
+                                <rect key="frame" x="50" y="500" width="315" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="110"/>
                                 <color key="textColor" red="0.47371597170000002" green="0.46902241659999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoE-2E-NYz">
+                                <rect key="frame" x="159" y="730" width="96" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Screen Shot 2020-10-19 at 12.10.52 AM"/>
+                                <connections>
+                                    <action selector="backButton:" destination="30X-NE-deC" eventType="touchUpInside" id="LQI-bc-buT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5JW-J0-xAW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -808,7 +824,7 @@
         <!--Navigation Controller-->
         <scene sceneID="w38-hK-r4B">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8V6-xx-RRK" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="homeVC" automaticallyAdjustsScrollViewInsets="NO" id="8V6-xx-RRK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9KI-xA-qf2">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -832,6 +848,7 @@
     </scenes>
     <resources>
         <image name="1" width="1800" height="1012"/>
+        <image name="Screen Shot 2020-10-19 at 12.10.52 AM" width="1491" height="1409"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

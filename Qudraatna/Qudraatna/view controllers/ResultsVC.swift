@@ -15,13 +15,22 @@ class ResultsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.isNavigationBarHidden = true
 
         percentage.text = String (finalpoints) + "%"
         
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backButton(_ sender: Any) {
+        let HomeVC = storyboard?.instantiateViewController(identifier: "homeVC") as? UINavigationController
+                view.window?.rootViewController = HomeVC
+                view.window?.makeKeyAndVisible()
+        
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
