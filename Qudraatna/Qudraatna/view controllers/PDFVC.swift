@@ -6,17 +6,47 @@
 //
 
 import UIKit
+import PDFKit
 
 class PDFVC: UIViewController {
 
     var finalsubc = ""
     
+    @IBOutlet weak var pdfView: PDFView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        chosen()
     }
+        
+       
+    func chosen() {
+        if finalsubc == ChemistryArray[0].subjectKuwaitUniNotes {
+        if let path = Bundle.main.path(forResource: "Chemistry KU Notes", ofType: "pdf") {
+        let url = URL(fileURLWithPath: path)
+            if let pdfDocument = PDFDocument(url: url) {
+                pdfView.autoScales = true
+                pdfView.displayMode = .singlePageContinuous
+                pdfView.displayDirection = .vertical
+                pdfView.document = pdfDocument
+            }
+        }
     
+        } else if finalsubc == ChemistryArray[0].subjectStudentNotes {
+            if let path = Bundle.main.path(forResource: "Chemistry Student Notes", ofType: "pdf") {
+            let url = URL(fileURLWithPath: path)
+                if let pdfDocument = PDFDocument(url: url) {
+                    pdfView.autoScales = true
+                    pdfView.displayMode = .singlePageContinuous
+                    pdfView.displayDirection = .vertical
+                    pdfView.document = pdfDocument
+                }
+            }
+
+        }
+    }
 
     /*
     // MARK: - Navigation

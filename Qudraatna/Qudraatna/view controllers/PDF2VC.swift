@@ -6,15 +6,44 @@
 //
 
 import UIKit
+import PDFKit
 
 class PDF2VC: UIViewController {
 
+    var finalsubm = ""
+    
+    @IBOutlet weak var pdfmview: PDFView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        chosenm()
         // Do any additional setup after loading the view.
     }
     
+    func chosenm() {
+        if finalsubm == mathArray[0].subjectKuwaitUniNotes {
+        if let path = Bundle.main.path(forResource: "Math KU Notes", ofType: "pdf") {
+        let url = URL(fileURLWithPath: path)
+            if let pdfDocument = PDFDocument(url: url) {
+                pdfmview.autoScales = true
+                pdfmview.displayMode = .singlePageContinuous
+                pdfmview.displayDirection = .vertical
+                pdfmview.document = pdfDocument
+            }
+        }
+        } else if finalsubm == mathArray[0].subjectStudentNotes {
+            if let path = Bundle.main.path(forResource: "Math Student Notes", ofType: "pdf") {
+            let url = URL(fileURLWithPath: path)
+                if let pdfDocument = PDFDocument(url: url) {
+                    pdfmview.autoScales = true
+                    pdfmview.displayMode = .singlePageContinuous
+                    pdfmview.displayDirection = .vertical
+                    pdfmview.document = pdfDocument
+                }
+            }
+
+        }
+    }
 
     /*
     // MARK: - Navigation
