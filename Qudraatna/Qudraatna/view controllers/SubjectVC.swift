@@ -43,6 +43,9 @@ class SubjectVC: UIViewController {
         performSegue(withIdentifier: "TestsChosen", sender: self)
     }
     
+    @IBAction func VQbutton(_ sender: UIButton) {
+        performSegue(withIdentifier: "QuizChosen", sender: self)
+    }
     
     /*
     // MARK: - Navigation
@@ -56,12 +59,12 @@ class SubjectVC: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "NotesCChosen" {
-        var vc = segue.destination as! PDFVC
-        vc.finalsubc = self.subc
+            var vc = segue.destination as! PDFVC
+            vc.finalsubc = self.subc
         } else if segue.identifier == "TestsChosen" {
-        var vct = segue.destination as! TestsVC
-        vct.finalsample = self.sample
-        }
+            var vct = segue.destination as! TestsVC
+            vct.finalsample = self.sample
+        } 
     }
     
     

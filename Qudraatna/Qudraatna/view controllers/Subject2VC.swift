@@ -43,6 +43,9 @@ class Subject2VC: UIViewController {
         performSegue(withIdentifier: "TestsmChosen", sender: self)
     }
      
+    @IBAction func VQMbutton(_ sender: UIButton) {
+        performSegue(withIdentifier: "QuizmChosen", sender: self)
+    }
 
     /*
     // MARK: - Navigation

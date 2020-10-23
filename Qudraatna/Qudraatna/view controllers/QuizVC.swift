@@ -14,6 +14,7 @@ class QuizVC: UIViewController {
     
     var currentQuestion = 0
     var rightAnswerPlacement: UInt32 = 0
+    var points = 0;
 
     @IBOutlet weak var lbl: UILabel!
     @IBOutlet weak var status: UILabel!
@@ -26,11 +27,14 @@ class QuizVC: UIViewController {
         @IBAction func action(_ sender: AnyObject) {
             if (sender.tag == Int(rightAnswerPlacement)) {
                 status.text = "Answer is Correct✅"
+                points += 20
             } else {
                 status.text = "Answer is Wrong❌"
             }
             if (currentQuestion != questions.count) {
                 newQuestion()
+            } else {
+                performSegue(withIdentifier: "ShowResults", sender: self)
             }
         }
     
@@ -69,5 +73,12 @@ class QuizVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowResults" {
+            var vc = segue.destination as! ResultsVC
+            vc.finalpoints = self.points 
+        }
+    }
 
 }

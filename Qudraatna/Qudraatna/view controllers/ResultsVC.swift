@@ -8,10 +8,16 @@
 import UIKit
 
 class ResultsVC: UIViewController {
+    
+    @IBOutlet weak var percentage: UILabel!
 
+    var finalpoints: Int = Int()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        percentage.text = String (finalpoints) + "%"
+        
         // Do any additional setup after loading the view.
     }
     
